@@ -1,0 +1,83 @@
+h1 {
+	--rang_1: green;
+	color: var(--rang_1);
+}
+
+h2 {
+	--rang_2: yellow;
+	color: var(--rang_2);
+}
+
+h3 {
+	--rang_3: red;
+	color: var(--rang_3);
+}
+
+h4 {
+	--rang_4: blue;
+	color: var(--rang_4);
+}
+
+h5 {
+	--rang_5: pink;
+	color: var(--rang_5);
+}
+
+h6 {
+	--rang_6: gold;
+	color: var(--rang_6);
+}
+
+.utf-8 {
+	--rang_7: darkblue;
+	color: var(--rang_7);
+}
+
+.viewport {
+	--rang_8: orange;
+	color: var(--rang_8);
+}
+
+.stylesheet {
+	--rang_9: grey;
+	color: var(--rang_9);
+}
+
+.meta {
+	--rang_10: dodgerblue;
+	color: var(--rang_10);
+}
+
+
+:root {
+	--myFont: "Arial" red;
+	--border_solid: 3px solid;
+	--FontArialFull: dashed 5px;
+	--borderStyle: 5px green;
+	--border_color: 3px blue;
+	--border_heat: var(--border_color) var(--FontArialFull);
+}
+
+h1 {
+	border: var(--border_color);
+}
+
+h2 {
+	border: var(--border_solid);
+}
+
+h3 {
+	border: var(--border_heat);
+}
+
+h4 {
+	border: var(--myFont);
+}
+
+h5 {
+	border: var(--borderStyle);
+}
+
+h6 {
+	border: var(--FontArialFull);
+}
